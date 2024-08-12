@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<launch>
+    <!-- Arguments -->
+
+    <!-- Launch Node -->
+    <node name="Submersible/Drive_controls" pkg="Surface_Sub_pkg" type="sub_drive_controls.py"/>
+</launch>

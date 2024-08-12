@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<launch>
+    <!-- Arguments -->
+
+    <!-- Launch Node -->
+    <node name="Submersible/Camera" pkg="Surface_Sub_pkg" type="camera.py"/>
+</launch>

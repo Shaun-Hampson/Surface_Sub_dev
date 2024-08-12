@@ -1,0 +1,8 @@
+<?xml vesion'1.0' encoding='UTF-8'?>
+
+<launch>
+    <!-- Arguments -->
+
+    <!-- Launch Node -->
+    <node name="Surface_vehicle/Transmitter" pkg="Surface_Sub_pkg" type="transmitter.py"/>
+</launch>

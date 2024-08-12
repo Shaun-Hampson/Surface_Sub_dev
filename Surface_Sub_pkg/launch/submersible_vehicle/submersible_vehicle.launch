@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<launch>
+    <!-- Arguments -->
+
+    <!-- Launch Node -->
+    <node name="Submersible" pkg="Surface_Sub_pkg" type="submersible.py"/>
+
+    <!-- Included Launch Files -->
+    <include file="$(find Surface_Sub_pkg)/launch/submersible_vehicle/drive_controls.launch"/>
+    <include file="$(file Surface_Sub_pkg)/launch/submersible_vehicle/camera.launch"/>
+</launch>

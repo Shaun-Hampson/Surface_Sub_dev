@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<launch>
+    <!-- Set Arguments -->
+
+    <!-- Launch Node -->
+    <node name="Surface_vehicle" pkg="surface_sub_pkg" type="surface_vehicle.py"/>
+
+    <!-- Include Included Launch Files -->
+    <include file="$(find Surface_Sub_pkg)/launch/surface_vehicle/drive_controls.launch"/>
+    <include file="$(find Surface_Sub_pkg)/launch/surface_vehicle/winch_controls.launch"/>
+    <include file="$(find Surface_Sub_pkg)/launch/surface_vehicle/sensors.launch"/>
+    <include file="$(find Surface_Sub_pkg)/launch/surface_vehicle/transmitter.launch"/>
+</launch>

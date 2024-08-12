@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<launch>
+    <!-- Arguments -->
+
+    <!-- Launch Main Node -->
+    <node name="main" pkg="surface_sub_pkg" type="main.py" output="screen"/>
+
+    <!-- Other Included Launch Files -->
+    <include file="$(find Surface_Sub_pkg)/launch/surface_vehicle/surface_vehicle.launch" />
+    <include file="$(find Surface_Sub_pkg)/launch/submersible_vehicle/submersible_vehicle.launch" />
+</launch>
