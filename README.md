@@ -15,10 +15,18 @@ The project uses [ROS](https://www.ros.org/) to control both vehicles.
 
 
 ## Requirements
+Control of the system's movement should be able to switch between the surface and submersible vehicle. Ideally the two vehicles should move in tandom when the submersible is deployed. As the submersible moves the surface vehicle should be able to follow along. If not the surface vehicle should be able to remain stationary while the submersible is in control.
 
 ### Surface Vehicle
+#### Locomotion
+
 
 ### Submersible Vehicle
+#### Locomotion
+The Submersible is required to maneuver with 6 degrees of freedom to allow for twisting and wider range of motions to be taken while the submersible is in an underwater environment.
+#### Video
+The Submersible requires a camera that can provide a video stream while submersed. 
+#### Optional Additions
 
 
 ## System Information
@@ -42,6 +50,8 @@ The project uses [ROS](https://www.ros.org/) to control both vehicles.
 [How to make an RC boat my own way](https://www.youtube.com/watch?v=BwToNXoW1Bg)
 
 ### Submersible Design
+#### Camera
+[Clover Bot Camera](https://clover.coex.tech/en/camera.html)
 
 ### ROS/Gazebo 
 [The Construct](https://www.youtube.com/playlist?list=PLK0b4e05LnzbHiGDGTgE_FIWpOCvndtYx)\
